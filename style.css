@@ -1,22 +1,50 @@
+/* Fatto*/
 .ex-1-square {
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    transition: background-color 2s ease;
 }
+
+.ex-1-square:hover {
+    background-color: red;
+}
+/*Non è graduale*/
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: background-color 2s;
 }
-.ex-3-square {
+
+.ex-2-square:active {
+    background-color: red;
+    width: 1000%;
+    height: 100px;
+}
+
+/*Fatto*/
+ .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: border-radius 2s;
 }
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+/*Fatto*/
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: background-color 2s;
+}
+
+.ex-4-square:hover {
+    background-color: transparent;
 }
 .ex-5-square {
     margin: 20px;
